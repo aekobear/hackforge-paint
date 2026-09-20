@@ -369,7 +369,7 @@ public:
       for (size_t i = 0; i < numChildMenuItems; ++i)
       {
           bool checkedState = childMenuItemIndex == i;
-          m_toolbarItems[toolbarIndex].SetChildMenuItemCheckedState(childMenuItemIndex, checkedState);
+          m_toolbarItems[toolbarIndex].SetChildMenuItemCheckedState(i, checkedState);
       }
   }
 };
